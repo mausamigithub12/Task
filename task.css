@@ -1,0 +1,122 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-color: pink;
+    
+    }
+    
+    .box{
+          
+        width: 55%;
+        height: 450px;
+        margin-top: 6%;
+        margin-left: 23%;
+        display: flex;
+       
+    }
+    .one{
+    width: 50%;
+    
+    background-color: white;
+    height: 450px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;}
+
+     .log{
+        display: flex;
+         flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding-top: 15%;
+
+     }
+     .login{
+        font-size: 30px;
+        font-family: Open Sans;
+     }
+.icon{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 2%;
+    gap: 15px;
+   
+   
+}
+#email,#password{
+    height: 33px;
+    width: 70%;
+    outline: none;
+    border: none;
+    background-color: rgb(225, 223, 220);
+}
+.forgot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 7%;
+    font-size: Open Sans;
+}
+.forget a{
+    color: black;
+    text-decoration: none;
+}
+
+.ok{
+    width: 35%;
+    height: 35px;
+    position: relative;
+    top: 20px;
+    background-color: orangered;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    
+
+
+}
+
+
+
+
+
+
+    .two{
+        width: 50%;
+    /* padding:10%; */
+    background-color: rgb(247, 63, 94);
+    height: 450px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    color: white;
+     
+    }
+.html{
+  padding-top: 38%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+ 
+}
+.css,.form{
+    font-size: 30px;
+    font-family: Open Sans;
+}
+.this{
+    padding-top: 6%;
+}
